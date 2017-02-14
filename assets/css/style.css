@@ -1,0 +1,208 @@
+/*General Style*/
+
+* {
+  box-sizing: border-box;
+}
+
+#header {
+	width: 960px;
+	height: 75px;
+	background-color: #ffffff;
+	border-color: #cccccc;
+	border-style: solid;
+	border-top: none;
+	border-right: none;
+	border-bottom-width: 2px;
+	border-left: none;
+	position: relative;
+	overflow: auto;
+	margin-top: 0px;
+	border-radius: 5px;
+}
+
+h1 {
+	color: white;
+	background: #4aaaa5;
+	padding: 15px;
+	margin-left: 50px;
+	position: absolute;
+	top: -13px;
+	left: -28px;
+
+}
+
+.otherPages {
+	padding: 45px;
+	width: 270px;
+	text-align: center;
+	position: absolute;
+	top: -9px;
+	right: 1px;
+
+}
+
+.webIndex{
+	padding-right: 3px;
+}
+
+.container {
+	width: 960px;
+}
+
+#leftContent {
+	width: 650px;
+	padding: 30px;
+	float: left;
+	background-color: #ffffff;
+	margin-top: 25px;
+	margin-right: 5px;
+	margin-bottom: 25px;
+	margin-left: 20px;
+	border-radius: 10px;
+}
+
+#connectWithMe {
+	float: left;
+	width: 270px;
+	background-color: #ffffff;
+	text-align: center;
+	margin-top: 25px;
+	margin-right: 0px;
+	margin-bottom: 25px;
+	margin-left: 15px;
+	padding: 15px;
+	border-radius: 10px;
+}
+.socialMedia{
+	height: 55px;
+	width: 55px;
+	margin-right: 3px;
+	margin-left: 3px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+body {
+	background-image: url(../images/Background.png);
+}
+
+h1, h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2, h3 {
+	color: #4aaaa5;
+}
+
+p, a, footer, form {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+a:hover{
+	opacity: 0.8;
+}
+
+hr {
+	background-color: #777777;
+	height: 1px;
+	opacity: 0.2;
+}
+
+footer {
+	color: white;
+	background: #666666;
+	border-style: solid;
+	border-top-width: 10px;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+	border-color: #4aaaa5;
+	clear: both;
+	text-align: center;
+	width: 960px;
+	height: 75px;
+	padding: 25px;
+	border-radius: 5px;
+}
+
+/*Contact Form Style*/
+
+.textWidth {
+	width: 600px;
+}
+
+.heightLarge {
+	height: 200px;
+}
+
+.heightSmall {
+	height: 35px;
+}
+
+input[type=submit] {
+	color: white;
+	background: #4aaaa5;
+	height: 40px;
+	width: 115px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;	
+	font-size: 125%;
+}
+
+input[type=text], textarea{
+	font-size: 110%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/*About Me Style*/
+
+.profilePicture {
+	float: left;
+	margin: 20px;
+	border-radius: 15px;
+	width: 150px;
+	height: 250px;
+}
+
+/*Portfolio Style*/
+
+.layered {
+	position: relative;
+	display: inline-block;
+	overflow: auto;
+}
+
+.layered:hover{
+	transform: rotate(-5deg);
+}
+
+.boxLink {
+	color: white;
+	background: #4aaaa5;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: center;	
+	padding-bottom: 10px;
+	padding-top: 10px;
+	width: 250px;
+	height: 50px;
+	position: absolute;
+	float: left;
+	z-index: 100;
+	bottom: 15px;
+	right: 15px;
+}
+
+.imageLink {
+	float: left;
+	position: relative;
+	width: 250px;
+	margin-left: 25px;
+	margin-right: 15px;
+	margin-bottom: 25px;
+	margin-top: 15px;
+	height: 187.5px;
+	border-radius: 5px;
+}
+
