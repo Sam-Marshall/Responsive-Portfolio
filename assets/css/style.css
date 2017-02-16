@@ -5,8 +5,7 @@
 }
 
 #header {
-	width: 100%;
-	max-width: 960px;
+	width: 960px;
 	height: auto;
 	background-color: #ffffff;
 	border-color: #cccccc;
@@ -54,21 +53,12 @@ h1 {
 	height: 90px;
 }
 
-.mainContent{
-	clear: both;
-	width: 100%;
-	max-width: 960px;
-	overflow-x: auto;
-	overflow-y: hidden;
-}
-
 .webIndex{
 	padding-right: 3px;
 }
 
 .container {
-	width: 100%;
-	max-width: 960px;
+	width: 960px;
 }
 
 #leftContent {
@@ -96,8 +86,8 @@ h1 {
 	margin-bottom: 25px;
 	margin-left: 15px;
 	border-radius: 10px;
-/*	overflow: auto;*/
 }
+
 .socialMedia{
 	height: 55px;
 	width: 55px;
@@ -157,8 +147,7 @@ footer {
 /*Contact Form Style*/
 
 .textWidth {
-	width: 100%;
-	max-width: 600px;
+	width: 600px;
 }
 
 .heightLarge {
@@ -231,116 +220,175 @@ input[type=text], textarea{
 }
 
 @media screen and (max-width: 980px){
+
+	#header{
+
+		width: 100%;
+		max-width: 960px;
+
+	}
 	
 	#leftContent {
-	width: calc(100% - 300px);
+
+		width: calc(100% - 300px);
+
+	}
+
+	.container{
+
+		width: 100%;
+		max-width: 960px;
+
+	}
+
+	.profilePicture{
+
+		clear: both;
+		width: 100%;
+		margin: 0px;
+		margin-bottom: 15px;
+
+	}
+
+	.textWidth {
+
+		width: 100%;
+		max-width: 600px;
+
 	}
 
 }
 
 @media screen and (max-width: 768px){
 
-	#header{
-		width: 100%;
-	}
 	.spacer{
+
 		display: none;
+
 	}
 
-/*	.container{
-		width: 100%;
-	}*/
+	.profilePicture{
+
+		float: left;
+		width: 50%;
+		margin-right: 15px;
+		margin-top: 15px;
+
+	}
 
 	h1{
-		margin: 8px;
+
+		margin-left: 8px;
 		height: auto;
+
 	}
 
 	#leftContent{
+
 		max-width: 960px;
 		width: 100%;
 		margin: 0px;
 		margin-top: 125px;
 		clear: both;
+
 	}
 
 	#connectWithMe{
+
 		width: 100%;
 		clear: both;
 		margin: 0px;
 		margin-top: 10px;
 		margin-bottom: 10px;
 		text-align: left;
+
 	}
 
 }
 
 @media screen and (max-width: 640px){
-	.container{
-		width: 100%;
-	}
 
 	#header{
-		width: 100%;
+
 		position: static;
 		display: block;
 		clear: both;
 		margin: 0px;
 		text-align: center;
+
 	}
 
 	h1{
+
 		width: 100%;
-/*		display: block;*/
 		clear: both;
-/*		vertical-align: top;*/
-/*		left: 0%;*/
 		margin: 0px;
+
 	}
 
 	.otherPages{
+
 		width: 100%;
-/*		display: block;*/
 		clear: both;
 		margin: 0px;
-/*		vertical-align: top;*/
-/*		left: 0%;*/
+
+	}
+
+	.webIndex{
+
+		margin-right: 20px;
+		margin-left: 20px;
+
 	}
 
 	#leftContent{
+
+		clear: both;
 		width: 100%;
 		margin: 0px;
 		margin-top: 10px;
-		clear: both;
+
 	}
+
 	#connectWithMe{
-		width: 100%;
+
 		clear: both;
+		width: 100%;
 		margin: 0px;
 		margin-top: 10px;
 		margin-bottom: 10px;
 		text-align: left;
+
 	}
+
 	.profilePicture{
+
 		clear: both;
 		width: 100%;
 		text-align: center;
 		margin: 0px;
 		margin-bottom: 10px;
+
 	}
+
 	.imageLink{
+
 		clear: both;
 		width: 100%;
 		height: auto;
 		margin: 0px;
 		margin-top: 15px;
+
 	}
 
 	.boxLink{
+
 		clear: both;
 		width: 100%;
 		margin: 0px;
 		right: 0px;
 		bottom: 10px;
+
 	}
+	
 }
